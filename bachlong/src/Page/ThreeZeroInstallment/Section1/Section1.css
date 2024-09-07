@@ -1,0 +1,30 @@
+.ThreeZeroInstallment-Section1-bg2 {
+  display: none;
+}
+.ThreeZeroInstallment-Section1-bg1 {
+  display: block;
+}
+
+.ThreeZeroInstallment-Section1-ContainerBox {
+  width: 80vw;
+  margin: auto;
+}
+.ThreeZeroInstallment-Section1-ContainerBox-image {
+  width: 70vw;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 1000px) {
+  .ThreeZeroInstallment-Section1-bg2 {
+    display: block;
+  }
+  .ThreeZeroInstallment-Section1-bg1 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .ThreeZeroInstallment-Section1-ContainerBox {
+    width: 95vw;
+    margin: auto;
+  }
+}

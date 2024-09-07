@@ -1,0 +1,53 @@
+.BuyInInstallments-Section1-bg2 {
+  display: none;
+}
+.BuyInInstallments-Section1-logo {
+  width: 160px;
+}
+.BuyInInstallments-Section1-Container {
+  background-color: #fff897;
+}
+.BuyInInstallments-S1-Image {
+  width: 35vw;
+  display: block;
+  margin: 10px 15vw auto auto;
+}
+.BuyInInstallments-S1-ImageBG {
+  width: 70vw;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 1000px) {
+  .BuyInInstallments-Section1-bg2 {
+    display: block;
+  }
+  .BuyInInstallments-Section1-bg1 {
+    display: none;
+  }
+  .BuyInInstallments-Section1-Container {
+    width: 80vw;
+    overflow: hidden;
+    margin: auto;
+  }
+  .BuyInInstallments-S1-Image {
+    width: 35vw;
+    display: block;
+    margin: 10px 5vw auto auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .BuyInInstallments-Section1-Container {
+    width: 100vw;
+  }
+  .BuyInInstallments-S1-Image {
+    width: 35vw;
+    display: block;
+    margin: 10px 15vw auto auto;
+  }
+  .BuyInInstallments-S1-ImageBG {
+    width: 90vw;
+    display: block;
+    margin: auto;
+  }
+}

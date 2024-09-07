@@ -1,0 +1,126 @@
+.Section1-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.Section1-logo img {
+  height: 50px;
+}
+
+.Section1-nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.Section1-nav-links li {
+  margin-left: 30px;
+}
+
+.Section1-nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Section1-nav-links a:hover {
+  color: #ffbf00;
+}
+.guide-title {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 36px;
+  line-height: 1;
+  background-color: #45a5fd;
+  padding: 40px 0;
+  color: #fff;
+  margin-bottom: 20px;
+}
+#uudai {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #dbf1ff;
+  padding-bottom: 5px;
+}
+.container .infor-uudais1 {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+.infor-uudais1 {
+  width: 80vw;
+  margin: auto;
+  text-align: left;
+  background: #fff;
+  font-size: 17px;
+  line-height: 26px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+.Section1-bg1 {
+  display: block;
+}
+.Section1-bg2 {
+  display: none;
+}
+.Section1-logo {
+  width: 160px;
+}
+@media (max-width: 1000px) {
+  .Section1-bg2 {
+    display: block;
+  }
+  .Section1-bg1 {
+    display: none;
+  }
+  .Section1-container {
+    width: 80vw;
+    overflow: hidden;
+    margin: auto;
+  }
+  .Section1-logo {
+    width: 100px;
+  }
+  .Section1-nav-links a {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .guide-title {
+    padding: 20px 0;
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .Section1-container {
+    width: 100vw;
+    overflow: hidden;
+    margin: auto;
+  }
+  .infor-uudais1 {
+    width: 100vw;
+  }
+}

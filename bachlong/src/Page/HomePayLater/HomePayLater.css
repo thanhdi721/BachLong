@@ -1,0 +1,52 @@
+.floating-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.floating-button {
+  width: 130px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  color: #333;
+  font-size: 20px;
+  gap: 10px; /* Space between image and text */
+  text-decoration: none;
+}
+
+.floating-button:hover {
+  background-color: #f0f0f0;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.zalo {
+  color: #0068ff; /* Replace with Zalo's color */
+}
+
+.phone {
+  color: #27ae60;
+}
+
+.scroll-up {
+  color: #ff9900;
+}
+.text-right {
+  margin-left: 0; /* Push the text to the right */
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none; /* Ensure no underline */
+}

@@ -1,0 +1,326 @@
+.HeaderContainer {
+  background-color: #fcf877;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.HeaderTitleImage {
+  background-color: #000;
+  width: 100%;
+}
+.HeaderTitle {
+  color: #ff0000;
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: 600;
+  margin: auto;
+  padding: 10px;
+  background-color: #ffd503;
+  text-align: center;
+}
+.HeaderItem2 {
+  padding-top: 10px;
+  display: flex;
+  height: 100px;
+  background-color: #fff200;
+  justify-content: space-evenly;
+}
+.header-horizontal-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header-horizontal-list li {
+  margin: 0 15px; /* Khoảng cách giữa các mục */
+}
+.line-logo {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fff200;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+.head-flex {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+  width: 80vw;
+  margin: auto;
+  gap: 15px;
+}
+.logo-new {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header-search {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 390px;
+  margin-top: 8px;
+  position: relative;
+}
+.skip-account {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 1rem;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  width: 38%;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.iconblm-logo {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #333;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+  background-repeat: no-repeat;
+  line-height: 30px;
+  vertical-align: middle;
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 60px;
+  background-position: center;
+  background-image: url(https://bachlongmobile.com/bnews/wp-content/uploads/2024/05/LOGO-BLM-SINCE-2006-310524-1.png);
+  background-size: 90%;
+}
+.logo {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+.top-search {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: block;
+  top: 45px;
+  font-style: italic;
+  line-height: 1rem;
+  height: 15px;
+  overflow: hidden;
+  color: #000;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  position: unset;
+  margin-top: 2px;
+  text-align: center;
+}
+.iconlogo-blc-new {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  cursor: pointer;
+  color: #000;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+  background-image: url(https://bachlongmobile.com/bnews/wp-content/uploads/2024/08/240824-ICON-BLC-WEB-BLM.png);
+  width: 50px;
+  height: 50px;
+}
+.iconlogo-htch-new {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  cursor: pointer;
+  color: #000;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+  background-image: url(https://bachlongmobile.com/bnews/wp-content/uploads/2023/08/icon-hethongcuahang-home-240823.png);
+  width: 50px;
+  height: 50px;
+}
+.iconlogo-call-new {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  cursor: pointer;
+  color: #000;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+  background-image: url(https://bachlongmobile.com/bnews/wp-content/uploads/2023/08/icon-call-home-240823.png);
+  width: 50px;
+  height: 50px;
+}
+.sdt-bl {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  font-family: Montserrat-Regular;
+  cursor: pointer;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff0000;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: -35px;
+}
+.HeaderItem3 {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 12px auto;
+  background: #fcf877;
+  padding-top: 75px;
+}
+.top-search-MB {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .head-flex {
+    display: block;
+  }
+  .iconblm-logo {
+    width: 280px;
+  }
+
+  .top-search {
+    display: none;
+  }
+  .skip-account {
+    display: none;
+  }
+  .HeaderItem3 {
+    display: none;
+  }
+  .top-search-MB {
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+  }
+  .HeaderContainer {
+    height: 20vh;
+    background-color: #fcf877;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  .HeaderTitle {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .top-search-MB {
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+  }
+  .search-input {
+    font-size: 14px;
+    padding: 6px;
+  }
+}

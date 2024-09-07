@@ -1,0 +1,26 @@
+.Section3-itemImageComponent {
+  width: 300px;
+}
+.Section3-itemTextComponent {
+  width: 300px;
+  margin: auto;
+  font-size: 20px;
+}
+@media (max-width: 1000px) {
+  .Section3-itemImageComponent {
+    width: 150px;
+  }
+  .Section3-itemTextComponent {
+    width: 150px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 768px) {
+  .Section3-itemImageComponent {
+    width: 120px;
+  }
+  .Section3-itemTextComponent {
+    width: 120px;
+  }
+}

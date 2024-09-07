@@ -1,0 +1,26 @@
+.Section4-itemImageComponent {
+  width: 300px;
+}
+.Section4-itemTextComponent {
+  width: 300px;
+  margin: auto;
+  font-size: 16px;
+}
+@media (max-width: 1000px) {
+  .Section4-itemImageComponent {
+    width: 200px;
+  }
+  .Section4-itemTextComponent {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 768px) {
+  .Section4-itemImageComponent {
+    width: 120px;
+  }
+  .Section4-itemTextComponent {
+    width: 120px;
+  }
+}

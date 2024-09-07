@@ -1,0 +1,53 @@
+.HDSaiSon-Section1-bg1 {
+  display: block;
+}
+.HDSaiSon-Section1-bg2 {
+  display: none;
+}
+.custom-table .ant-table {
+  border: 1px solid #000; /* Độ dày viền của bảng */
+}
+
+.custom-table .ant-table-thead > tr > th,
+.custom-table .ant-table-tbody > tr > td {
+  border: 1px solid #000; /* Viền dày cho các ô */
+}
+.HDSaiSon-imageHD {
+  width: 60vw;
+  margin: auto;
+  display: block;
+}
+.HDSaiGon-S1Box {
+  padding: 20px;
+  background-color: #fff9e6;
+}
+.HDSaiGon-S1InBox {
+  padding: 10px;
+  width: 70vw;
+  margin: auto;
+  background-color: #fff;
+}
+@media (max-width: 1000px) {
+  .HDSaiSon-Section1-bg2 {
+    display: block;
+  }
+  .HDSaiSon-Section1-bg1 {
+    display: none;
+  }
+  .HDSaiSon-S1-Container {
+    width: 80vw;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .HDSaiSon-S1-Container {
+    width: 100vw;
+    margin: auto;
+  }
+  .HDSaiGon-S1Box {
+    padding: 0px;
+  }
+  .HDSaiGon-S1InBox {
+    width: 96vw;
+  }
+}

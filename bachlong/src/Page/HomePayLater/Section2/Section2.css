@@ -1,0 +1,189 @@
+.HomePayLater-S2-banner-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.HomePayLater-S2-banner-title-image {
+  width: 800px;
+  height: auto;
+  border-radius: 15px;
+  margin: 100px auto auto auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.HomePayLater-S2-Container {
+  width: 100vw;
+}
+.HomePayLater-S2-banner-title-images {
+  width: 800px;
+  height: auto;
+  border-radius: 15px;
+  margin: 00px auto auto auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+/* Existing styles remain unchanged */
+.HomePayLater-S2-box-full-about {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #fff200 !important;
+}
+
+.HomePayLater-S2-slogan {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  letter-spacing: 28px;
+  padding-left: 28px;
+  border: 1px solid;
+  width: 737px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+#HomePayLater-S2-about {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  width: 1200px;
+  margin: auto;
+  background: #fff;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  background-color: #fff200 !important;
+  flex-wrap: wrap; /* Added for wrapping the images */
+}
+
+.HomePayLater-S2-_1_about {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.HomePayLater-S2-item1 {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  justify-content: space-evenly;
+  width: 80vw;
+  margin: auto;
+  gap: 10px; /* Add some spacing between images */
+}
+.HomePayLater-S2-item1-image {
+  width: 216px;
+  height: 378px;
+}
+@media (min-width: 1001px) {
+  /* For screens larger than 1000px */
+  .HomePayLater-S2-item1 img {
+    flex: 1 1 calc(20% - 10px); /* Each image takes 20% width minus gap */
+  }
+}
+
+@media (max-width: 1000px) {
+  /* For screens 1000px or smaller */
+  .HomePayLater-S2-item1 {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    grid-auto-rows: auto; /* Automatic row height */
+    justify-items: center; /* Center items in their grid cells */
+    align-items: center; /* Center items vertically */
+  }
+
+  .HomePayLater-S2-item1 > :nth-child(4),
+  .HomePayLater-S2-item1 > :nth-child(5) {
+    grid-column: span 1; /* Each item spans 1 column */
+  }
+
+  .HomePayLater-S2-item1 > :nth-child(4) {
+    margin-left: 100%; /* Adjust this value to move item 4 to the left */
+  }
+
+  .HomePayLater-S2-item1 > :nth-child(5) {
+    margin-left: 100%; /* Adjust this value to move item 5 to the right */
+  }
+}
+
+/* Media Query for screens with a maximum width of 1000px */
+@media (max-width: 1000px) {
+  #HomePayLater-S2-about {
+    width: 100%; /* Adjust width to fit the screen */
+  }
+
+  .HomePayLater-S2-_1_about {
+    display: flex;
+    justify-content: center;
+    width: 48%; /* Two items per row with some spacing */
+    margin-bottom: 20px;
+    /* Add some spacing between the rows */
+  }
+  .HomePayLater-S2-box-full-about {
+    width: 80vw;
+    margin: auto;
+  }
+  .HomePayLater-S2-slogan {
+    width: 80vw;
+    font-size: 24px;
+    letter-spacing: 20px;
+  }
+  .HomePayLater-S2-Container {
+    width: 80vw;
+    margin: auto;
+  }
+  .HomePayLater-S2-banner-title-images {
+    width: 80vw;
+  }
+}
+@media (max-width: 768px) {
+  .HomePayLater-S2-slogan {
+    font-size: 24px;
+    letter-spacing: unset;
+  }
+  .HomePayLater-S2-box-full-about {
+    width: 100vw;
+  }
+  .HomePayLater-S2-item1-image {
+    width: 90px;
+    height: 150px;
+  }
+  .HomePayLater-S2-banner-title-image {
+    width: 90vw;
+  }
+  .HomePayLater-S2-banner-title-images {
+    width: 100vw;
+  }
+  .HomePayLater-S2-Container {
+    width: 100vw;
+  }
+}

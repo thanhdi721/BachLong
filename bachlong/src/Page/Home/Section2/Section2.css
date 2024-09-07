@@ -1,0 +1,110 @@
+.section2 {
+  display: flex;
+  background-color: #2a8ef8;
+
+  color: #ffffff;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2-content {
+  max-width: 500px;
+  margin-right: 30px;
+}
+
+.section2-text {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.section2-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between; /* Ensure space between items */
+}
+
+.feature-item {
+  display: flex;
+  background-color: #2b6cc6;
+  padding: 10px 10px;
+  border-radius: 8px;
+  flex: 0 1 calc(50% - 10px); /* Set each item to take up 50% minus the gap */
+  text-align: center;
+  font-size: 16px;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.section2-download {
+  text-align: center;
+  width: 300px;
+}
+.section2-download h3 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.download-button {
+  width: 250px;
+  margin-top: -30px;
+}
+
+.section2-image {
+  max-width: 300px;
+}
+
+.section2-image img {
+  width: 100%;
+}
+.Section2-itemImage2 {
+  display: flex;
+}
+@media (max-width: 1000px) {
+  .section2 {
+    display: block;
+    width: 80vw;
+  }
+  .section2-content {
+    margin: auto;
+  }
+  .Section2-itemImage2 {
+    margin: auto;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .Section2-itemImage2 {
+    display: block;
+    margin: auto;
+    justify-content: center;
+  }
+  .section2 {
+    display: block;
+    width: 100vw;
+  }
+  .section2-features {
+    margin: auto;
+    justify-content: center;
+    display: block;
+  }
+  .feature-item {
+    margin: auto;
+    width: 300px;
+    height: 70px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .section2-download {
+    margin: auto;
+  }
+  .section2-image {
+    margin: auto;
+  }
+}

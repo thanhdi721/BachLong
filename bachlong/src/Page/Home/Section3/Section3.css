@@ -1,0 +1,53 @@
+.guide-titles3 {
+  font: 14px/18px Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-family: Montserrat-Regular;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 36px;
+  line-height: 1;
+  background-color: #45a5fd;
+  padding: 30px 0;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.Section3-container {
+  background-color: #dbf1ff;
+}
+.Section3-steps {
+  display: grid;
+  width: 70vw;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8vw;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+  .Section3-title1 {
+    font-size: 20px;
+  }
+  .Section3-title2 {
+    font-size: 16px !important;
+  }
+  .Section3-container {
+    width: 80vw;
+    margin: auto;
+  }
+  .Section3-steps {
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .Section3-container {
+    width: 100vw;
+    margin: auto;
+  }
+  .Section3-steps {
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
