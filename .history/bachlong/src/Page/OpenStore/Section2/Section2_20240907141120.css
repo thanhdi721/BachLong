@@ -1,0 +1,41 @@
+.OpenStore-Section2.product-slider {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.OpenStore-Section2.category-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.OpenStore-Section2.button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.OpenStore-Section2.button.active {
+  background-color: #ffcc00;
+}
+
+.OpenStore-Section2.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.OpenStore-Section2.product-card img {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.OpenStore-Section2.product-card p {
+  font-size: 16px;
+  color: #333;
+}
+`

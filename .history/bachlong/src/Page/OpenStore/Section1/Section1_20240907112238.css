@@ -1,0 +1,34 @@
+.OpenStore-Section1-open-list {
+  box-sizing: border-box;
+  border: 0;
+  font: inherit;
+  padding: 0;
+  vertical-align: baseline;
+  display: flex;
+  left: 50%;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: -2%;
+  width: 83.3333333333%;
+}
+.OpenStore-Section1-open-item.x1 {
+  width: 22%;
+}
+.OpenStore-Section1-open-item img {
+  transition: all 0.2s ease-in-out;
+}
+.OpenStore-Section1-open-item.x2 {
+  width: 30.3%;
+}
+.OpenStore-Section1-open-item.x3 {
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+  z-index: 2;
+}
+@media (max-width: 1000px) {
+}

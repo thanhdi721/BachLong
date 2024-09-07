@@ -1,0 +1,16 @@
+.OpenStore-Section1-{
+    box-sizing: border-box;
+border: 0;
+font: inherit;
+padding: 0;
+vertical-align: baseline;
+display: flex;
+left: 50%;
+margin: 0 auto;
+position: absolute;
+transform: translateX(-50%);
+bottom: -2%;
+width: 83.3333333333%;
+}
+@media (max-width: 1000px) {
+}

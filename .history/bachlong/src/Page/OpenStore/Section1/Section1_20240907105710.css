@@ -1,0 +1,14 @@
+.Warranty-Section1-bg2 {
+  display: none;
+}
+.Warranty-Section1-bg2 {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .Warranty-Section1-bg2 {
+    display: block;
+  }
+  .Warranty-Section1-bg1 {
+    display: none;
+  }
+}

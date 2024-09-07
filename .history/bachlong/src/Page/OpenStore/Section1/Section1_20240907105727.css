@@ -1,0 +1,14 @@
+.OpenStore-Section1-bg2 {
+  display: none;
+}
+.OpenStore-Section1-bg1 {
+  display: block;
+}
+@media (max-width: 1000px) {
+  .OpenStore-Section1-bg2 {
+    display: block;
+  }
+  .Warranty-Section1-bg1 {
+    display: none;
+  }
+}

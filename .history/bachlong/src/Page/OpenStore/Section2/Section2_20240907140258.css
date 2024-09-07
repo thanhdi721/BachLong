@@ -1,0 +1,11 @@
+.OpenStore-Section2-Container-Product {
+  background-color: #fc0009;
+  height: auto;
+  width: auto   ;
+  margin: auto;
+}
+.OpenStore-Section2-Container-ProductImage {
+  width: 70vw;
+  display: block;
+  margin: auto;
+}

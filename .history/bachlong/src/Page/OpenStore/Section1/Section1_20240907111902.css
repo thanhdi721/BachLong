@@ -1,0 +1,22 @@
+.OpenStore-Section1-open-list {
+  box-sizing: border-box;
+  border: 0;
+  font: inherit;
+  padding: 0;
+  vertical-align: baseline;
+  display: flex;
+  left: 50%;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: -2%;
+  width: 83.3333333333%;
+}
+.open-item.x1 {
+    width: 20%;
+}
+.open-item img {
+    transition: all .2s ease-in-out;
+}
+@media (max-width: 1000px) {
+}

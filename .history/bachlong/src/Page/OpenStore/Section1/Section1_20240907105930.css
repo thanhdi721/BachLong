@@ -1,0 +1,9 @@
+
+@media (max-width: 1000px) {
+  .OpenStore-Section1-bg2 {
+    display: block;
+  }
+  .OpenStore-Section1-bg1 {
+    display: none;
+  }
+}
