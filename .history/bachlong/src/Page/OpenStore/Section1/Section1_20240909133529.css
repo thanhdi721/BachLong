@@ -1,0 +1,196 @@
+.OpenStore-Section1-Container {
+  position: relative;
+}
+
+.OpenStore-Section1-bg1 {
+  display: block;
+  width: 100%;
+}
+
+.OpenStore-Section1-open-list {
+  box-sizing: border-box;
+  border: 0;
+  font: inherit;
+  padding: 0;
+  vertical-align: baseline;
+  display: flex;
+  flex-wrap: wrap; /* Cho phép các item gói gọn trong nhiều hàng nếu cần */
+  justify-content: center; /* Căn giữa các item */
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%; /* Đảm bảo chiếm toàn bộ chiều rộng của container */
+  gap: 10px; /* Khoảng cách giữa các item, điều chỉnh theo ý muốn */
+}
+
+.OpenStore-Section1-open-item {
+  flex: 1 1 auto; /* Cho phép các item co giãn và bao phủ không gian có sẵn */
+  max-width: 30%; /* Giới hạn chiều rộng tối đa của các item */
+  box-sizing: border-box; /* Đảm bảo padding và border không làm thay đổi kích thước tổng thể */
+}
+
+.OpenStore-Section1-open-item img {
+  transition: all 0.2s ease-in-out;
+  display: block;
+  width: 100%;
+  height: auto; /* Đảm bảo tỷ lệ khung hình của ảnh không bị biến dạng */
+}
+
+/* Hover effect (optional) */
+/* .OpenStore-Section1-open-item img:hover {
+  box-shadow: 0 4px 20px rgba(255, 215, 0, 0.8); 
+} */
+
+.OpenStore-Section1-open-item.x1 {
+  width: 20%;
+}
+
+.OpenStore-Section1-open-item.x2 {
+  width: 30.3%;
+}
+
+.OpenStore-Section1-open-item.x3 {
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+  z-index: 2;
+}
+
+.OpenStore-Section1open-title {
+  box-sizing: border-box;
+  border: 0;
+  font: inherit;
+  margin: 0;
+  vertical-align: baseline;
+  background-color: #fe0000;
+  color: #fff;
+  padding: 0px 0;
+  display: flex;
+  font-size: 16px;
+  justify-content: space-around;
+}
+
+.OpenStore-Section1-video {
+  display: flex;
+  width: 80vw;
+  margin: 20px auto;
+  justify-content: space-around;
+}
+
+.OpenStore-Section1-video iframe {
+  border-radius: 1.2rem;
+}
+
+.OpenStore-Section1-video-item {
+  width: 595px;
+  height: 315px;
+}
+
+.OpenStore-Section1-boxText {
+  padding: 5px;
+  width: 80vw;
+  background-color: #fff;
+  color: black;
+  margin: auto auto auto auto;
+  text-align: unset;
+}
+
+.OpenStore-Section1-boxTextTitle {
+  padding: 20px 40px;
+  width: 35%;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.OpenStore-Section1-boxTextImage {
+  border-radius: 10px;
+  width: 80vw;
+}
+
+@media (max-width: 1000px) {
+  .OpenStore-Section1-video-item {
+    width: 45vw;
+    height: 30vw;
+  }
+  .OpenStore-Section1-open-list {
+    top: 30%;
+    width: 90%; /* Thu hẹp kích thước của danh sách trên màn hình nhỏ hơn */
+  }
+  .OpenStore-Section1-open-item {
+    max-width: 45%; /* Thay đổi kích thước item trên màn hình nhỏ hơn */
+  }
+  .OpenStore-Section1-video {
+    display: flex;
+    width: 100vw;
+    margin: 20px auto;
+    justify-content: space-around;
+  }
+  .OpenStore-Section1-boxTextTitle {
+    padding: 20px 30px;
+    width: 40%;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .OpenStore-Section1-boxTextImage {
+    border-radius: 10px;
+    width: 95vw;
+  }
+  .OpenStore-Section1-boxText {
+    padding: 5px;
+    width: 95vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .OpenStore-Section1-video-item {
+    width: 90vw;
+    display: block;
+    height: 50vw;
+    margin: 20px auto;
+  }
+  .OpenStore-Section1-open-list {
+    top: 20%;
+    width: 100%; /* Chiếm toàn bộ chiều rộng của màn hình nhỏ */
+  }
+  .OpenStore-Section1-open-item {
+    max-width: 100%; /* Item chiếm toàn bộ chiều rộng có sẵn trên màn hình rất nhỏ */
+  }
+  .OpenStore-Section1-video {
+    display: block;
+    width: 100vw;
+    margin: 20px auto;
+    justify-content: unset;
+  }
+  .OpenStore-Section1-boxTextTitle {
+    padding: 10px 20px;
+    width: 40%;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .OpenStore-Section1-boxTextImage {
+    border-radius: 10px;
+    width: 95vw;
+  }
+  .OpenStore-Section1-boxText {
+    padding: 5px;
+    width: 95vw;
+  }
+  .OpenStore-Section1open-title {
+    display: block;
+  }
+  .OpenStore-Section1open-title h4 {
+    font-size: 16px;
+    margin: 0px;
+    padding: 5px;
+  }
+}

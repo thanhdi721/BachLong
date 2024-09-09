@@ -1,0 +1,18 @@
+.ButtonTableCSS {
+  color: black;
+  padding: 5px 10px;
+  width: 15%;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .ButtonTableCSS {
+    padding: 5px 0px;
+    width: 22%;
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
