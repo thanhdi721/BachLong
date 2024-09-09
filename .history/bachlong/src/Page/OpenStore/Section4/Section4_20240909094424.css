@@ -1,0 +1,19 @@
+.OpenStore-S4-Container {
+  background-color: #fcf9d6;
+  width: 80vw;
+  border: 1px solid gray;
+  margin: 20px auto auto auto;
+  border-radius: 16px;
+}
+.OpenStore-S4-Title {
+  color: #1e293b;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 150%;
+}
+.OpenStore-S4-Banner {
+  width: 78vw;
+  display: block;
+  margin: auto;
+  border-radius:""
+}

@@ -1,0 +1,39 @@
+.OpenStore-S4-Container {
+  background-color: #fcf9d6;
+  width: 80vw;
+  border: 1px solid gray;
+  margin: 20px auto auto auto;
+  border-radius: 16px;
+}
+.OpenStore-S4-Title {
+  color: #1e293b;
+  font-size: 32px;
+  font-weight: 700;
+  margin: auto;
+  padding: 20px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.OpenStore-S4-Banner {
+  width: 78vw;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+@media (max-width: 1000px) {
+  .OpenStore-S4-Container {
+    width: 98vw;
+  }
+  .OpenStore-S4-Title {
+    font-size: 28px;
+  }
+  .OpenStore-S4-Banner {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .OpenStore-S4-Title {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,142 @@
+.card {
+  width: 250px;
+  border: 2px solid #ff0000;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  text-align: start;
+  margin: 5px 0px;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.installment {
+  background-color: #fff;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.image-container {
+  margin: 30px 0px 10px 0;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-content {
+  margin-top: 10px;
+}
+
+.product-title {
+  font-size: 16px;
+  color: #000;
+  height: 30px;
+  margin: 10px 0;
+}
+
+.price-container {
+  margin: 10px 0;
+}
+
+.current-price {
+  color: #e60000;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #a0a0a0;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.discount {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.buy-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #e60000;
+}
+.banner {
+  position: relative;
+  width: 250px; /* Đặt kích thước theo mong muốn */
+  height: auto;
+  overflow: hidden; /* Giới hạn nội dung bên trong */
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-img {
+  position: absolute;
+  width: 50%; /* Kích thước của ảnh sản phẩm */
+  height: auto;
+  top: 60%; /* Căn giữa theo chiều dọc */
+  left: 50%; /* Căn giữa theo chiều ngang */
+  transform: translate(-50%, -50%) scale(1); /* Đưa ảnh vào giữa và kích thước ban đầu */
+  transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển đổi mượt */
+}
+
+.banner:hover .product-img {
+  transform: translate(-50%, -50%) scale(1.2); /* Phóng to ảnh sản phẩm khi hover */
+}
+@media (max-width: 1000px) {
+  .card {
+    width: 200px;
+  }
+  .banner {
+    width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    width: 45vw;
+    padding: 6px;
+  }
+  .banner {
+    width: 150px;
+  }
+  .buy-button {
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+  }
+  .product-title {
+    font-size: 15px;
+  }
+  .current-price {
+    font-size: 15px;
+  }
+}

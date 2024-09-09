@@ -1,0 +1,24 @@
+.OpenStore-Section2-Container-Product {
+  background-color: #fc0009;
+  padding: 10px;
+  width: max-content;
+  margin: auto;
+}
+
+.OpenStore-Section2-Container-ProductImage {
+  width: 80vw;
+  display: block;
+  margin: auto;
+}
+.no-select {
+  user-select: none; /* Disables text selection */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For Internet Explorer/Edge */
+  pointer-events: none; /* Prevents mouse clicks */
+}
+@media (max-width: 1000px) {
+  .OpenStore-Section2-Container{
+    w
+  }
+}

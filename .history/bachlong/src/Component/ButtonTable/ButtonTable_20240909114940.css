@@ -1,0 +1,32 @@
+.ButtonTableCSS {
+  color: black;
+  padding: 5px 10px;
+  width: 15%;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+    .card1 {
+      width: 150px;
+      padding: 6px;
+      height: 350px;
+    }
+    .banner1 {
+      width: 150px;
+    }
+    .buy-button1 {
+      padding: 10px;
+      width: 100%;
+      font-size: 14px;
+    }
+    .product-title1 {
+      font-size: 15px;
+    }
+    .current-price1 {
+      font-size: 15px;
+    }
+  }
+  

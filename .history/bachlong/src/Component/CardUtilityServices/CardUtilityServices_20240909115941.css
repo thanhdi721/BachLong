@@ -1,0 +1,22 @@
+.CardUtilityServices-Images {
+  width: 367px;
+  height: 138px;
+  border-radius: 10px;
+}
+.CardUtilityServices-text {
+  font-size: 12px;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .CardUtilityServices-Images {
+    width: 40vw;
+    height: 20vw;
+    border-radius: 10px;
+  }
+  .CardUtilityServices-text {
+    width: 40vw;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}

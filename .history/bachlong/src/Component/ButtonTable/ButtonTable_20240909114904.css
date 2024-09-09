@@ -1,0 +1,11 @@
+.ButtonTableCSS{
+
+    color: black
+    padding: 5px 10px
+    width: 15%
+    textAlign: center
+    borderRadius: 20px
+    fontSize: 20px
+    font-weight: 600
+    cursor: pointer
+}

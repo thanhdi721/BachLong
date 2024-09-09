@@ -1,0 +1,110 @@
+.OpenStore-Section2-Container-Product {
+  background-color: #fc0009;
+  width: 80vw;
+  margin: auto;
+}
+
+.OpenStore-Section2-Container-ProductImage {
+  width: 80vw;
+  display: block;
+  margin: auto;
+}
+.OpenStore-Section2-Container {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.no-select {
+  user-select: none; /* Disables text selection */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For Internet Explorer/Edge */
+  pointer-events: none; /* Prevents mouse clicks */
+}
+.OpenStore-Section2-ItemSlider {
+  width: 80vw;
+  margin-left: 30px !important;
+  margin: auto;
+}
+.OpenStore-Section2-boxTextTitle {
+  padding: 20px 20px;
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (max-width: 1440px) {
+  .OpenStore-Section2-Container-Product {
+    background-color: #fc0009;
+    width: 90vw;
+    margin: auto;
+  }
+
+  .OpenStore-Section2-Container-ProductImage {
+    width: 90vw;
+    display: block;
+    margin: auto;
+  }
+  .OpenStore-Section2-Container {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .no-select {
+    user-select: none; /* Disables text selection */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For Internet Explorer/Edge */
+    pointer-events: none; /* Prevents mouse clicks */
+  }
+  .OpenStore-Section2-ItemSlider {
+    width: 90vw;
+    margin-left: 10px !important;
+    margin: auto;
+  }
+  .OpenStore-Section2-boxTextTitle {
+    padding: 20px 20px;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 1000px) {
+  .OpenStore-Section2-Container {
+    width: 90vw;
+    margin: auto;
+  }
+  .OpenStore-Section2-Container-Product {
+    width: 90vw;
+  }
+  .OpenStore-Section2-ItemSlider {
+    width: 90vw;
+    margin: auto;
+  }
+}
+@media (max-width: 767px) {
+  .OpenStore-Section2-Container {
+    width: 100vw;
+    margin: auto;
+  }
+  .OpenStore-Section2-Container-Product {
+    width: 100vw;
+  }
+  .OpenStore-Section2-ItemSlider {
+    width: 100vw;
+    margin-left: ;
+  }
+  .OpenStore-Section2-boxTextTitle {
+    padding: 6px 16px;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}

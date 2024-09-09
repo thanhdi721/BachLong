@@ -1,0 +1,62 @@
+.OpenStore-Section3-Container-Product {
+  background-color: #fce154;
+  padding: 10px;
+  width: max-content;
+  margin: auto;
+}
+.OpenStore-Section3-Container {
+  margin-top: 20px;
+}
+.OpenStore-Section3-Container-ProductImage {
+  width: 80vw;
+  display: block;
+  margin: auto;
+}
+.no-select {
+  user-select: none; /* Disables text selection */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For Internet Explorer/Edge */
+  pointer-events: none; /* Prevents mouse clicks */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 80vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: auto;
+  align-items: center;
+}
+
+.placeholder {
+  background-color: transparent;
+  border: none;
+}
+
+.outer-container {
+  width: 76vw;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f3c13a;
+}
+
+.see-more-button {
+  position: absolute;
+  padding: 10px 20px;
+  background-color: #fc0009;
+  color: #fff;
+  border: none;
+  left: 50%;
+  transform: ;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.see-more-button:hover {
+  background-color: #ff3d43;
+}
